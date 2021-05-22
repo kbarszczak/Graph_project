@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Studia AGH/Semestr 2/Teoria Grafow/Projekt_gotowy/Czesc_programistyczna/graph.cpp
+graph.h
+E:/Studia AGH/Semestr 2/Teoria Grafow/Projekt_gotowy/Czesc_programistyczna/graph.h
+
+E:/Studia AGH/Semestr 2/Teoria Grafow/Projekt_gotowy/Czesc_programistyczna/graph.h
+iostream
+-
+sstream
+-
+fstream
+-
+vector
+-
+map
+-
+cfloat
+-
+exception
+-
+regex
+-
+

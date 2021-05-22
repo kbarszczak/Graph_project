@@ -1,0 +1,3 @@
+E:/Studia AGH/Semestr 2/Teoria Grafow/Projekt_gotowy/Czesc_programistyczna/cmake-build-debug/CMakeFiles/Projekt.dir
+E:/Studia AGH/Semestr 2/Teoria Grafow/Projekt_gotowy/Czesc_programistyczna/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Studia AGH/Semestr 2/Teoria Grafow/Projekt_gotowy/Czesc_programistyczna/cmake-build-debug/CMakeFiles/rebuild_cache.dir
