@@ -1,1 +1,16 @@
-# Teoria_grafow_projekt
+## Teoria grafów - projekt
+Autor: Kamil Barszczak
+
+### Część analityczna
+Rozwiązania do części analitycznej oraz opis wykorzystania algorytmu Bellmana-Forda znajdują się w pliku "Kamil_Barszczak.pdf" w folderze "Czesc_analityczna". Pliki pomocnicze tj. "macierz_incydencji.xlsx" oraz "macierz_incydencji.csv" również znajdują się we wspomnianym folderze. 
+
+### Część programistyczna
+Aby uruchomić program z zaimplementowanym algorytmem Bellmana-Forda należy uruchomić plik "Ford_Bellman.exe", który znajduje się w folderze "Czesc_programistyczna". Program został napisany w taki sposób, że po zakończeniu jego działania będzie czekał na dowolny znak z klawiatury, który go wyłączy. Aby wprowadzić graf, należy umieścić go w pliku w tym samym folderze co plik "Ford_Bellman.exe". Program za każdym razem pyta o nazwę pliku z grafem, z którego ma czytać (ścieżka bezwzględna nie działa). Graf musi być przedstawiony w postaci listy sąsiedztwa.<br>
+#### Format pliku z grafem:<br>
+"numer_wierzchołka_startowego:( numer_wierzchołka_końcowego waga_krawędzi)"<br><br>
+() - wyrażenie wewnątrz nawiasów może być powtórzone wielokrotnie<br>
+numer_wierzchołka_startowego oraz numer_wierzchołka_końcowego - nieujemne liczby całkowite.<br>
+waga_krawędzi - dowolna liczba typu double.<br><br>
+Przykład poprawnie zapisanej linii: "6: 4 -3.1 8 9.6".<br>"graph.json" znajdujacy się w folderze "Czesc_programistyczna" to przykład poprawnie zapisanego pliku z grafem.<br> Proszę zwrócić uwagę na ilość spacji. Po znaku ':' jest dokładnie 1 spacja, poźniej każda kolejna liczba oddzielona jest dokładnie 1 spacją. Na końcu każdej linii nie może znajdować się znak spacji. Poprawność wprowadzonych linii testowana jest za pomocą następującego wyrażenia regularnego: "^[0-9]+:( [0-9]+ -?[0-9]+(\.[0-9]+)?)+$", które można przetestować tutaj: https://regex101.com/<br>
+#### Implementacja algorytmu Bellmana-Forda
+Implementacja algorytmu zawarta jest w pliku "graph.cpp" od linii 148 do linii 199. Pliku znajduje się w folderze "Czesc_programistyczna".
