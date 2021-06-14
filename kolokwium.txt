@@ -1,0 +1,8 @@
+1) eulerowskie: 4,8 pół-eulerowskie: 2,6,9 nie mają żadnej eulerowskiej
+własności: 5
+2) hamiltonowskie: 18, pół-hamiltnowskie: 13,15,16,17,19,20 nie mają żadnej
+hamiltonowskiej własności: 11,12,14
+3) Aby liczba chromatyczna byla równa 10 to graf musi zawierac podgraf K10. Graf K10 ma 45 krawedzi. Zatem storzenie grafu, ktory ma liczbe chromatyczna 10 i ma 40 krawedzi jest niemozliwe.
+4)n-m+f=2 | dla koła W8: (liczba krawedzi) m = 14, (liczba wierzchołków) n=8, (liczba ścian) f=8. 8 - 14 + 8 = -6 + 8 = 2
+5) Rozwiazanie dla delta = 3: Z twierdzenia Brooksa jezeli graf jest prosty i pełny to liczba chromatyczna (ile jest kolorowalny) wynosi najwyzszy stopień wierzchołka + 1. Czyli dla grafu k4 graf jest (3 + 1) kolorowalny.
+Alternatywne rozwiazanie: Graf pelny ma takie same stopnie dla kazdego wierzchołka zatem niemozliwe jest aby w grafie pełnym najwyzszy stopien wynisił 7 a niajniższy 3.  
